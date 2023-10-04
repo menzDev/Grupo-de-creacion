@@ -1,0 +1,99 @@
+*, body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Space Mono', monospace;
+    font-family: 'Young Serif', serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'PT Serif', serif;
+    font-family: 'Space Mono', monospace;
+    font-family: 'Young Serif', serif;
+}
+.container{
+    margin: 0 auto;
+    width: 1140px;
+    margin-top: 44px;
+}
+.main{
+    width: 100%;
+    display: flex;
+}
+.primer-texto , .segundo-texto{
+    width: 50%;
+}
+.main h1 {
+    
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -0.045em;
+    text-align: left;
+}
+.main h3{
+    line-height: 27px;
+    color: #000;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.main h2{
+    color: #000;
+    font-family: Poppins;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.personas-seccion-uno{
+    width: 33.33%;
+}
+img {
+	width: 238px;
+}
+.persona-dos{
+    margin-top: 150px;
+}
+.primeras-imagenes{
+    display: flex;
+    margin-top: 100px;
+}
+.segundas-imagenes{
+    display: flex;
+    margin-top: 100px;
+}
+.personaje-dos{
+    margin-top: 150px;
+}
+/*
+.persona-uno img{
+    width: 250px;
+    height: 350px;
+    flex-shrink: 0; 
+    margin-top: 75.5px;
+    margin-left: 240px;
+    rotate:-180;
+
+}
+.persona-uno h2{
+    width: 117px;
+    height: 27px;
+    margin-top: 15px;
+    margin-left: 240px;
+    font-size: Poppins;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+}
+.persona-uno p{
+    width: 102px;
+    height: 16px;
+    margin-top: 330px;
+    margin-left: 504px;
+
+}
